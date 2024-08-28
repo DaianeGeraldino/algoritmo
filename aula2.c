@@ -24,7 +24,7 @@ int main()
     
   if(catetoAdjacente <= 0){
     printf("Nao existe cateto Oposto negativo\n");
-    return 1;
+    return 1;d
   }
     
   hipotenusa = sqrt((pow(catetoOposto,2)) + (pow(catetoAdjacente,2)));
@@ -50,7 +50,7 @@ int main()
   printf("A conversao deu %2.f \n", dolar);
     
   /*
-    Exercicio 3: Converta graus Celcius para graus Fahrenheit.
+    Exercicio 3: Converta graus Celsius para graus Fahrenheit.
 	  O usuario deve informar a temperatura em graus Celcius
 	  e o programa deve calcular o valor em Fahrenheit.
 	*/
