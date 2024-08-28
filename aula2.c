@@ -37,17 +37,17 @@ int main()
   	que quer converter em Reais.
 	*/
 	
-  float dolar, real, conversao;
+  float dolar, real, cotacaoDolar;
     
   printf("Digite a cotacao do dolar atual\n");
-  scanf("%f", &dolar);
+  scanf("%f", &cotacaoDolar);
     
   printf("Digite qual valor que deseja converter para reais\n");
   scanf("%f", &real);
     
-  conversao = dolar * real;
+  dolar = real / cotacaoDolar;
     
-  printf("A conversao deu %2.f \n", conversao);
+  printf("A conversao deu %2.f \n", dolar);
     
   /*
     Exercicio 3: Converta graus Celcius para graus Fahrenheit.
