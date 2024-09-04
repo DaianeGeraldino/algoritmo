@@ -24,7 +24,7 @@ int main()
     
   if(catetoAdjacente <= 0){
     printf("Nao existe cateto Oposto negativo\n");
-    return 1;d
+    return 1;
   }
     
   hipotenusa = sqrt((pow(catetoOposto,2)) + (pow(catetoAdjacente,2)));
