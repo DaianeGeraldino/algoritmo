@@ -55,7 +55,7 @@ int main()
         }
     }
     
-    printf("A ordem eh %f %f %f ", menorNum, medioNum, maiorNum);
+    printf("A ordem eh %.2f %.2f %.2f ", menorNum, medioNum, maiorNum);
 
 
 
